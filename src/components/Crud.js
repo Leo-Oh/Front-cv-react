@@ -12,7 +12,7 @@ const Crud = () => {
   return (
     <div className="container">
       <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
-        <a class="navbar-brand" href="#">Config CV</a>
+        <a class="navbar-brand" href="/">CV</a>
         <ul class="nav nav-pills">
         <h4 id="scrollspyHeading2"><Curriculum /></h4>
 

@@ -67,10 +67,6 @@ const Login = () => {
     });
 
 
-    function refreshPage() {
-        window.location.reload(true);
-    }
-
     //const [signup] = useMutation(SIGNUP_MUTATION, {
     //  variables: {
     //    username: formState.name,

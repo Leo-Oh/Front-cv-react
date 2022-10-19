@@ -12,7 +12,7 @@ const Curriculum = () => {
     <div className="left_side">
         <div className="profileText">
             <div className="imgBox">
-                <img src={ImageProfile} />
+                <img src={ImageProfile} alt="profile"/>
             </div>
             <h2>Leonardo Martinez
                 <br/>

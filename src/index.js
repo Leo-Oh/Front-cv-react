@@ -5,7 +5,6 @@ import './styles/index.css';
 import App from './components/App';
 import { setContext } from '@apollo/client/link/context';
 import { AUTH_TOKEN } from './Constants';
-import * as bootstrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 
