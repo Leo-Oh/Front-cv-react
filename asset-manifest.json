@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/.github.io/front-react-cv/static/css/main.b9d7fb26.css",
+    "main.js": "/.github.io/front-react-cv/static/js/main.4fbea047.js",
+    "static/media/profile.jpg": "/.github.io/front-react-cv/static/media/profile.eabd7b3593588e5a0d8c.jpg",
+    "index.html": "/.github.io/front-react-cv/index.html",
+    "main.b9d7fb26.css.map": "/.github.io/front-react-cv/static/css/main.b9d7fb26.css.map",
+    "main.4fbea047.js.map": "/.github.io/front-react-cv/static/js/main.4fbea047.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9d7fb26.css",
+    "static/js/main.4fbea047.js"
+  ]
+}
