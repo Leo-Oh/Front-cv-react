@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/front-react-cv/build/static/css/main.b9d7fb26.css",
-    "main.js": "/front-react-cv/build/static/js/main.d07bdad4.js",
-    "static/media/profile.jpg": "/front-react-cv/build/static/media/profile.eabd7b3593588e5a0d8c.jpg",
-    "index.html": "/front-react-cv/build/index.html",
-    "main.b9d7fb26.css.map": "/front-react-cv/build/static/css/main.b9d7fb26.css.map",
-    "main.d07bdad4.js.map": "/front-react-cv/build/static/js/main.d07bdad4.js.map"
+    "main.css": "/front-react-cv/static/css/main.b9d7fb26.css",
+    "main.js": "/front-react-cv/static/js/main.a166b9fc.js",
+    "static/media/profile.jpg": "/front-react-cv/static/media/profile.eabd7b3593588e5a0d8c.jpg",
+    "index.html": "/front-react-cv/index.html",
+    "main.b9d7fb26.css.map": "/front-react-cv/static/css/main.b9d7fb26.css.map",
+    "main.a166b9fc.js.map": "/front-react-cv/static/js/main.a166b9fc.js.map"
   },
   "entrypoints": [
     "static/css/main.b9d7fb26.css",
-    "static/js/main.d07bdad4.js"
+    "static/js/main.a166b9fc.js"
   ]
 }
