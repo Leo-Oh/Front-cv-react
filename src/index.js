@@ -1,20 +1,28 @@
+import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
 import './styles/index.css';
-import * as serviceWorker from './serviceWorker';
-import { BrowserRouter } from 'react-router-dom';
+import App from './components/App';
 import { setContext } from '@apollo/client/link/context';
 import { AUTH_TOKEN } from './Constants';
-import { onError } from "@apollo/client/link/error"
-import { ApolloProvider, ApolloClient, createHttpLink, InMemoryCache } from '@apollo/client';
 import * as bootstrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
+
+// 1
+import {
+  ApolloProvider,
+  ApolloClient,
+  createHttpLink,
+  InMemoryCache
+} from '@apollo/client';
+
+// 2
 const httpLink = createHttpLink({
-  uri: 'http://34.125.186.178:8109/graphql/'
+  //uri: 'http://34.125.186.178:8109/graphql/'
+  uri: 'https://leonardo-leo-oh.cloud.okteto.net/graphql/'
 });
 
 const authLink = setContext((_, { headers }) => {
@@ -27,41 +35,19 @@ const authLink = setContext((_, { headers }) => {
   };
 });
 
-const errorLink = onError(({ graphQLErrors, networkError }) => {
-  if (graphQLErrors)
-    graphQLErrors.forEach(({ message, locations, path }) =>
-      console.log(
-        `[GraphQL error]: Message: ${message}, Location: ${locations}, Path: ${path}`,
-      ),
-    );
-
-  if (networkError) console.log(`[Network error]: ${networkError}`);
-});
-
+// 3
 const client = new ApolloClient({
-  link: [authLink, errorLink, httpLink],
+  //link: httpLink,
+  link: authLink.concat(httpLink),
   cache: new InMemoryCache()
 });
 
+// 4
 ReactDOM.render(
-  <BrowserRouter>
-    <ApolloProvider client={client}>
-      <App />
-    </ApolloProvider>,
-  </BrowserRouter>,
-
-  document.getElementById('root')
+ <BrowserRouter>
+   <ApolloProvider client={client}>
+     <App />
+   </ApolloProvider>
+ </BrowserRouter>,
+ document.getElementById('root')
 );
-serviceWorker.unregister();
-
-
-/*
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-reportWebVitals();
-
-*/

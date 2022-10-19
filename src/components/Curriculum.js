@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ImageProfile from './../images/profile.jpg';
 
 import '../styles/Curriculum.css';
@@ -26,7 +26,7 @@ const Curriculum = () => {
             <ul>
                 <li>
                  
-                    <FaPhone style={{color: 'white' }} aria-hidden="true"/>-
+                    <FaPhone style={{color: 'white' }} aria-hidden='true'/>-
                     <span className="text"><a href="tel:+522711426743">+52 2711426743</a></span>
                 </li>
                 <li>

@@ -1,278 +1,278 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
 
 *{
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box !important;
-    font-family: 'Poppins', sans-serif !important;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif ;
 }
 
 body {
-    background-color: rgb(163, 162, 162) !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    min-height: 100vh !important;
+    background-color: rgb(163, 162, 162) ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    min-height: 100vh ;
 
 }
 
 .container{
-    position: relative !important;
-    width: 100% !important;
-    max-width: 1000px !important;
-    min-height: 1000px !important;
-    background-color: #fff !important;
-    margin: 50px !important;
-    display: grid !important;
-    grid-template-columns: 1fr 2fr !important;
-    box-shadow: 0 35px 55px rgb(0,0,0,0.1) !important;
+    position: relative ;
+    width: 100% ;
+    max-width: 1000px ;
+    min-height: 1000px ;
+    background-color: #fff ;
+    margin: 50px ;
+    display: grid ;
+    grid-template-columns: 1fr 2fr ;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.1) ;
 }
 
 .container .left_side{
-    position: relative !important;
-    background-color: #181717 !important;
-    padding: 40px !important;
+    position: relative ;
+    background-color: #181717 ;
+    padding: 40px ;
 }
 
 .profileText{
-    position: relative !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    padding-bottom: 20px !important;
+    position: relative ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    padding-bottom: 20px ;
     border-bottom: 1px solid rgba(255,255,255,0.2)
 }
 
 .profileText .imgBox{
-    position: relative !important;
-    width: 200px !important;
-    height: 200px !important;
-    border-radius: 50% !important;
-    overflow: hidden !important;
+    position: relative ;
+    width: 200px ;
+    height: 200px ;
+    border-radius: 50% ;
+    overflow: hidden ;
 }
 
 
 .profileText .imgBox img{
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    width: 100% ;
+    height: 100% ;
+    object-fit: cover ;
 
 }
 
 .profileText h2{
-    color: #fff !important;
-    font-size: 1.5em !important;
-    margin-top: 20px !important;
-    text-transform: uppercase !important;
-    text-align: center !important;
-    font-weight: 600 !important;
-    line-height: 1.4em !important;
+    color: #fff ;
+    font-size: 1.5em ;
+    margin-top: 20px ;
+    text-transform: uppercase ;
+    text-align: center ;
+    font-weight: 600 ;
+    line-height: 1.4em ;
 }
 
 .profileText h2 span{
-    font-size: 0.8em !important;
-    font-weight:300 !important;
+    font-size: 0.8em ;
+    font-weight:300 ;
 }
 
 .contactInfo{
-    padding-top: 40px !important;
+    padding-top: 40px ;
 }
 
 .title{
-    color: #fff !important;
-    text-transform: uppercase !important;
-    font-weight: 600 !important;
-    letter-spacing: 1px !important;
-    margin-bottom: 20px !important;
+    color: #fff ;
+    text-transform: uppercase ;
+    font-weight: 600 ;
+    letter-spacing: 1px ;
+    margin-bottom: 20px ;
 }
 
 .contactInfo ul{
-    position: relative !important;
+    position: relative ;
 }
 
 .contactInfo ul li{
-    position: relative !important;
-    list-style: none !important;
-    margin: 10px 0 !important;
-    cursor: pointer !important;
+    position: relative ;
+    list-style: none ;
+    margin: 10px 0 ;
+    cursor: pointer ;
 }
 
 .contactInfo ul li .icon{
-    display: inline-block !important;
-    width: 30px !important;
-    font-size: 18px !important;
-    color: #fff !important;
+    display: inline-block ;
+    width: 30px ;
+    font-size: 18px ;
+    color: #fff ;
 }
 
 .contactInfo ul li span{
-    color: #fff !important;
-    font-weight: 300 !important;
+    color: #fff ;
+    font-weight: 300 ;
 }
 
 .contactInfo ul li span a{
-    color: #fff !important;
-    font-weight: 300 !important;
+    color: #fff ;
+    font-weight: 300 ;
 }
 
 .contactInfo.education li{
-    margin-bottom: 15px !important;
+    margin-bottom: 15px ;
 }
 
 .contactInfo.education h5{
-    color: #8ed6f7 !important;
-    font-weight: 500 !important;
+    color: #8ed6f7 ;
+    font-weight: 500 ;
 }
 
 .contactInfo.education h4:nth-child(2){
-    color: #ffffff !important;
-    font-weight: 500 !important;
+    color: #ffffff ;
+    font-weight: 500 ;
 }
 
 .contactInfo.education h4{
-    color: #ffffff !important;
-    font-weight: 300 !important;
-    font-size: medium !important;
+    color: #ffffff ;
+    font-weight: 300 ;
+    font-size: medium ;
 }
 
 
 .contactInfo.language .percent{
-    position: relative !important;
-    width: 100% !important;
-    height: 6px !important;
-    background-color: #a5a5a5 !important;
-    display: block !important;
-    margin-top: 5px !important;    
+    position: relative ;
+    width: 100% ;
+    height: 6px ;
+    background-color: #a5a5a5 ;
+    display: block ;
+    margin-top: 5px ;    
 }
 
 .contactInfo.language .percent div{
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    height: 100% !important;
-    background-color: #0099ff !important;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    height: 100% ;
+    background-color: #0099ff ;
 }
 
 
 .container .right_side{
-    position: relative !important;
-    background-color: #fff !important;
-    padding: 40px !important;
+    position: relative ;
+    background-color: #fff ;
+    padding: 40px ;
 }
 
 .about{
-    margin-bottom: 50px !important;
+    margin-bottom: 50px ;
 }
 
 .about:last-child{
-    margin-bottom: 0 !important;
+    margin-bottom: 0 ;
 }
 
 .title2{
-    color: #303030 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 1px !important;
-    margin-bottom: 10px !important;
+    color: #303030 ;
+    text-transform: uppercase ;
+    letter-spacing: 1px ;
+    margin-bottom: 10px ;
 }
 
 p{
-    color: #303030 !important;
+    color: #303030 ;
 }
 
 .about .box{
-    display: flex !important;
-    flex-direction: row !important;
-    margin: 20px 0 !important;
+    display: flex ;
+    flex-direction: row ;
+    margin: 20px 0 ;
 }
 
 .about .box .year_company{
-    min-width: 150px !important;
+    min-width: 150px ;
 }
 
 .about .box .year_company h5{
-    text-transform: uppercase !important;
-    color: #848c90 !important;
-    font-weight: 600 !important;
-    font-size: medium !important;
+    text-transform: uppercase ;
+    color: #848c90 ;
+    font-weight: 600 ;
+    font-size: medium ;
 }
 
 .about .box .text h4{
-    text-transform: uppercase !important;
-    color: #303030 !important;
-    font-size: 16px !important;
+    text-transform: uppercase ;
+    color: #303030 ;
+    font-size: 16px ;
 }
 
 .skills .box {
-    position: relative !important;
-    width: 100% !important;
-    display: grid !important;
-    grid-template-columns: 150px 1fr !important;
-    justify-content: center !important;
-    align-items: center !important;
+    position: relative ;
+    width: 100% ;
+    display: grid ;
+    grid-template-columns: 150px 1fr ;
+    justify-content: center ;
+    align-items: center ;
 }
 
 .skills .box h4{
-    text-transform: uppercase !important;
-    color: #848c99 !important;
-    font-weight: 500 !important;
-    font-size: medium !important;
+    text-transform: uppercase ;
+    color: #848c99 ;
+    font-weight: 500 ;
+    font-size: medium ;
 }
 
 .skills .box .percent{
-    position: relative !important;
-    width: 100% !important;
-    height: 10px !important;
-    background-color: #f0f0f0 !important;
+    position: relative ;
+    width: 100% ;
+    height: 10px ;
+    background-color: #f0f0f0 ;
 }
 
 .skills .box .percent div{
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    height: 100% !important;
-    background-color: #0099ff !important;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    height: 100% ;
+    background-color: #0099ff ;
 }
 
 .interest ul{
-    display: grid !important;
-    grid-template-columns: repeat(4,1fr) !important;
+    display: grid ;
+    grid-template-columns: repeat(4,1fr) ;
 }
 
 .interest ul li{
-    list-style: none !important;
-    color: #333 !important;
-    margin: 10px 0 !important;
+    list-style: none ;
+    color: #333 ;
+    margin: 10px 0 ;
 }
 
 .interest ul li .fa{
-    color: #03a9 !important;
-    font-size: 18px !important;
-    width: 20 !important;
+    color: #03a9 ;
+    font-size: 18px ;
+    width: 20 ;
 }
 
 @media (max-width:1000px){
     .container{
-        margin: 10px !important;
-        grid-template-columns: repeat(1,1fr) !important;
+        margin: 10px ;
+        grid-template-columns: repeat(1,1fr) ;
     }
     .interest ul{
-        grid-template-columns: repeat(2,1fr) !important;
+        grid-template-columns: repeat(2,1fr) ;
     }
 }
 
 @media (max-width: 600px) {
     .about .box{
-        flex-direction: column !important;
+        flex-direction: column ;
     }
     .about .box .year_company{
-        margin-bottom: 5px !important;
+        margin-bottom: 5px ;
     }
     .interest ul{
-        grid-template-columns: repeat(1,1fr) !important;
+        grid-template-columns: repeat(1,1fr) ;
     }
     .skills .box{
-        grid-template-columns: repeat(1,1fr) !important;
+        grid-template-columns: repeat(1,1fr) ;
     }
 }

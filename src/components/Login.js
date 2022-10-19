@@ -42,15 +42,15 @@ const LOGIN_MUTATION = gql`
   }
 `;
 
-
-
 const Login = () => {
-    const history = useNavigate();
+    const navigate = useNavigate();
     const [formState, setFormState] = useState({
         login: true,
+        username: '',
         email: '',
         password: '',
-        name: ''
+        //name: ''
+        //emmail
     });
 
     const [login] = useMutation(LOGIN_MUTATION, {
@@ -61,7 +61,7 @@ const Login = () => {
         onCompleted: ({ tokenAuth }) => {
             console.log(tokenAuth);
             localStorage.setItem(AUTH_TOKEN, tokenAuth.token);
-            history.push('/create');
+            navigate('/dashboard');
 
         }
     });
