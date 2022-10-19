@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/front-react-cv.git/static/css/main.b9d7fb26.css",
-    "main.js": "/front-react-cv.git/static/js/main.aa9f7b5e.js",
-    "static/media/profile.jpg": "/front-react-cv.git/static/media/profile.eabd7b3593588e5a0d8c.jpg",
-    "index.html": "/front-react-cv.git/index.html",
-    "main.b9d7fb26.css.map": "/front-react-cv.git/static/css/main.b9d7fb26.css.map",
-    "main.aa9f7b5e.js.map": "/front-react-cv.git/static/js/main.aa9f7b5e.js.map"
+    "main.css": "/front-cv-react.git/static/css/main.b9d7fb26.css",
+    "main.js": "/front-cv-react.git/static/js/main.5d9877c5.js",
+    "static/media/profile.jpg": "/front-cv-react.git/static/media/profile.eabd7b3593588e5a0d8c.jpg",
+    "index.html": "/front-cv-react.git/index.html",
+    "main.b9d7fb26.css.map": "/front-cv-react.git/static/css/main.b9d7fb26.css.map",
+    "main.5d9877c5.js.map": "/front-cv-react.git/static/js/main.5d9877c5.js.map"
   },
   "entrypoints": [
     "static/css/main.b9d7fb26.css",
-    "static/js/main.aa9f7b5e.js"
+    "static/js/main.5d9877c5.js"
   ]
 }
