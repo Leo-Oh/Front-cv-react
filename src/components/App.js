@@ -1,8 +1,10 @@
 import React from 'react';
 import '../styles/App.css';
 import Curriculum from './Curriculum';
-import { Routes, Route,Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Login from './Login';
+import Crud from './Crud';
+
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
     <Routes>
        <Route exact path='/' element={<Curriculum/>} />
        <Route exact path='/login' element={<Login/>} />
+       <Route exact path='/dashboard' element={<Crud/>} />
     
      </Routes>
 
